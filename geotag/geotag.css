@@ -1,0 +1,295 @@
+body {
+
+    background-color: black;
+}
+
+#divi {
+    width: auto;
+    height: 300px;
+    border: 1px solid black;
+}
+
+img {
+    width: 1530px;
+    height: 300px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul li {
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    border: 1px solid orange;
+    width: 295px;
+}
+
+ul li ul li {
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    border: 1px solid orange;
+    width: 295px;
+}
+
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+
+    display: block;
+    background-color: blue;
+}
+
+ul li a:hover {
+    background-color: deepskyblue;
+}
+
+#divm {
+    height: auto;
+    width: 660px;
+    border: 1px solid inherit;
+    margin-top: 200px
+}
+
+#div2 {
+    width: 300px;
+    height: 220px;
+    background-color:darkcyan;
+    border: 1px solid deepskyblue;
+    margin-top: 100px;
+    margin-left: 10px;
+    text-align: center;
+    position: relative;
+    float: left;
+    animation-name: sample1;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+
+#div3 {
+    width: 300px;
+    height: 220px;
+    background-color: darkcyan;
+    border: 1px solid deepskyblue;
+    margin-top: 100px;
+    margin-left: 10px;
+    text-align: center;
+    position: relative;
+    float:left;
+    animation-name: sample1;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+
+#div4 {
+    width: 300px;
+    height: 220px;
+    background-color:darkcyan;
+    border: 1px solid deepskyblue;
+    margin-top: 100px;
+    margin-left: 10px;
+    text-align: center;
+    position: relative;
+    float: left;
+    animation-name: sample1;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+
+#div5 {
+    width: 300px;
+    height: 220px;
+    background-color: darkcyan;
+    border: 1px solid deepskyblue;
+    margin-top: 100px;
+    margin-left: 10px;
+    text-align: center;
+    position: relative;
+    float: left;
+    animation-name: sample1;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+
+@keyframes sample1{
+    0%{border-radius: 0%;background-color: darkorange;}
+    50%{border-radius: 25%;background-color:green;}
+    100%{border-radius: 50%;background-color:inherit;}
+}
+#div2:hover{
+    transform: rotateZ(180deg);
+    transition: all 1s;
+}
+#div3:hover{
+    transform: rotateZ(180deg);
+    transition: all 1s;
+}
+#div4:hover{
+    transform: rotateZ(180deg);
+    transition: all 1s;
+}
+#div5:hover{
+    transform: rotateZ(180deg);
+    transition: all 1s;
+}
+
+#img1{
+    width:50px;
+    height:50px;
+}
+#div2 a{
+    text-decoration: none;
+}
+#div3 a{
+    text-decoration: none;
+}
+#div4 a{
+    text-decoration: none;
+}
+#div5 a{
+    text-decoration: none;
+}
+
+#div2 a h2{
+    
+    color:lawngreen;
+     font-size: 35px;
+    font-family:monospace;
+}
+#div3 a h2{
+    
+    color:lawngreen;
+    font-size: 35px;
+    font-family:monospace;
+}
+#div4 a h2{
+    
+    color:lawngreen;
+    font-size: 35px;
+    font-family:monospace;
+}
+#div5 a h2{
+    
+    color:lawngreen;
+    font-size: 35px;
+    font-family:monospace;
+}
+
+#fac {
+            width: 220px;
+            height: 80px;
+            position: fixed;
+            top: 50px;
+            left: -18px;
+        }
+
+        #goo {
+            width: 198px;
+            height: 40px;
+            position: fixed;
+            top: 140px;
+            left: -5px;
+        }
+
+        #lin {
+            width: 198px;
+            height: 42px;
+            position: fixed;
+            top: 200px;
+            left: -7px;
+        }
+
+        #fac:hover {
+            margin-left: 12px;
+            transition: all 0.5s;
+        }
+
+        #goo:hover {
+            margin-left: 12px;
+            transition: all 0.5s;
+        }
+
+        #lin:hover {
+            margin-left: 12px;
+            transition: all 0.5s;
+        }
+#divs{
+    width:320px;
+    height:220px;
+    position: absolute;
+    border: 1px solid inherit;
+    animation-name: satellite;
+    animation-duration: 20s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#imgs{
+    width: 320px;
+    height: 220px;
+}
+
+@keyframes satellite{
+    0%   {left:0px; right:0px;}
+  50%  {left:1200px; right:1200px;}
+  100% {left:0px; right:0px;}
+}
+
+#divsm1{
+    width:310px;
+    height:220px;
+    position: absolute;
+    border: 1px solid inherit;
+    animation-name: spaceman;
+    animation-duration: 18s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#imgsm1{
+    width:310px;
+    height:220px;
+}
+
+#divsm2{
+    width:330px;
+    height:220px;
+    position: absolute;
+    border: 1px solid inherit;
+    margin-left: 1200px;
+    animation-name: spaceman;
+    animation-duration: 18s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#imgsm2{
+    width:330px;
+    height:220px;
+}
+
+@keyframes spaceman{
+    0%{top:0px;bottom:0px;}
+    50%{top:1100px;bottom:1100px;}
+    100%{top:0px;bottom:0px;}
+}
