@@ -1,0 +1,2 @@
+# geotagging
+Geotagging, or GeoTagging, is the process of adding geographical identification metadata to various media such as a geotagged photograph or video, websites, SMS messages, RSS feeds and is a form of geospatial metadata. This data usually consists of latitude and longitude coordinates, though they can also include altitude, bearing, distance, accuracy data, and place names, and perhaps a time stamp.
